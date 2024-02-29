@@ -1,9 +1,108 @@
-<mxfile host="app.diagrams.net" modified="2024-02-29T11:47:51.997Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="23.1.8" etag="Bp6Yh_DALy0n7dfGgTFb" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-29T12:17:56.077Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="OGD2R5UEr4Q1bdZWiRyU" version="23.1.8" type="github">
   <diagram name="Page-1" id="JFRKJEgqMgph9xW6P5yi">
-    <mxGraphModel>
+    <mxGraphModel dx="1784" dy="1226" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="HTw3sV0ZwZtI-GVUHRbt-1" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="730" y="460" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HTw3sV0ZwZtI-GVUHRbt-2" value="Database" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="490" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HTw3sV0ZwZtI-GVUHRbt-3" value="" style="line;strokeWidth=2;direction=south;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="100" width="10" height="900" as="geometry" />
+        </mxCell>
+        <mxCell id="HTw3sV0ZwZtI-GVUHRbt-4" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;External Entity&lt;/b&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="705" y="220" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HTw3sV0ZwZtI-GVUHRbt-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HTw3sV0ZwZtI-GVUHRbt-5" target="HTw3sV0ZwZtI-GVUHRbt-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HTw3sV0ZwZtI-GVUHRbt-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HTw3sV0ZwZtI-GVUHRbt-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-240.00000000000023" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HTw3sV0ZwZtI-GVUHRbt-5" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.cloud;" vertex="1" parent="1">
+          <mxGeometry x="-425" y="300" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HTw3sV0ZwZtI-GVUHRbt-6" value="Mobile App ( Instagram Clone )" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-415" y="350" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HTw3sV0ZwZtI-GVUHRbt-7" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;External Clients&lt;/b&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-380" y="100" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HTw3sV0ZwZtI-GVUHRbt-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HTw3sV0ZwZtI-GVUHRbt-8" target="HTw3sV0ZwZtI-GVUHRbt-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HTw3sV0ZwZtI-GVUHRbt-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HTw3sV0ZwZtI-GVUHRbt-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-210.00000000000023" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HTw3sV0ZwZtI-GVUHRbt-8" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.cloud;" vertex="1" parent="1">
+          <mxGeometry x="-425" y="520" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HTw3sV0ZwZtI-GVUHRbt-9" value="Website" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-380" y="560" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HTw3sV0ZwZtI-GVUHRbt-10" value="" style="line;strokeWidth=2;direction=south;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="120" width="10" height="780" as="geometry" />
+        </mxCell>
+        <mxCell id="HTw3sV0ZwZtI-GVUHRbt-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HTw3sV0ZwZtI-GVUHRbt-11" target="HTw3sV0ZwZtI-GVUHRbt-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HTw3sV0ZwZtI-GVUHRbt-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="230" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HTw3sV0ZwZtI-GVUHRbt-12" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;PhotoCo&lt;/font&gt;ntroller&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="260" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HTw3sV0ZwZtI-GVUHRbt-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="HTw3sV0ZwZtI-GVUHRbt-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="45.41176470588243" y="639.8823529411766" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HTw3sV0ZwZtI-GVUHRbt-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="HTw3sV0ZwZtI-GVUHRbt-13" target="HTw3sV0ZwZtI-GVUHRbt-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HTw3sV0ZwZtI-GVUHRbt-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="560" width="185" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HTw3sV0ZwZtI-GVUHRbt-14" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;VideoController&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="590" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HTw3sV0ZwZtI-GVUHRbt-17" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;Controller/Routing Layer&lt;/b&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-95" y="90" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HTw3sV0ZwZtI-GVUHRbt-18" value="End Result of this API is to allow Users to Upload, and inract with photos and other users" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="420" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HTw3sV0ZwZtI-GVUHRbt-19" value="Customer Description : Mobile users will consume the API to upload photos, view their feed, like photos, and follow/unfollow other users" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-430" y="680" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HTw3sV0ZwZtI-GVUHRbt-20" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;/photos (GET): Retrieve photos in the user&#39;s feed /photos/{photoId} (GET): Retrieve details of a specific photo /photos (POST): Upload a new photo /photos/{photoId}/like (POST): Like a specific photo /users/{userId}/follow (POST): Follow a user /users/{userId}/unfollow (POST): Unfollow a user&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="360" width="300" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="HTw3sV0ZwZtI-GVUHRbt-21" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;/videos (GET): Retrieve videos in the user&#39;s feed /videos/{videoId} (GET): Retrieve details of a specific video /videos (POST): Upload a new video /videos/{videoId}/like (POST): Like a specific video /users/{userId}/follow (POST): Follow a user /users/{userId}/unfollow (POST): Unfollow a user&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="670" width="330" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="HTw3sV0ZwZtI-GVUHRbt-22" value="{photoId}: Unique identifier for each photo {userId}: Unique identifier for each user" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="480" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HTw3sV0ZwZtI-GVUHRbt-23" value="{videoId}: Unique identifier for each video" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-145" y="830" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HTw3sV0ZwZtI-GVUHRbt-24" value="" style="line;strokeWidth=2;direction=south;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="100" width="10" height="900" as="geometry" />
+        </mxCell>
+        <mxCell id="HTw3sV0ZwZtI-GVUHRbt-25" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="455" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="HTw3sV0ZwZtI-GVUHRbt-26" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;PhotoService&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="185" y="480" width="100" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
