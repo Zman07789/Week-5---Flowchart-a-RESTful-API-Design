@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-29T17:58:42.330Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="Id1ZCAm1BthCztBkejGS" version="23.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-29T18:11:08.669Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="7jiaJzCOibceU0XLp55d" version="23.1.8" type="github">
   <diagram name="Page-1" id="JFRKJEgqMgph9xW6P5yi">
     <mxGraphModel dx="1784" dy="1226" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -14,7 +14,7 @@
           <mxGeometry x="680" y="100" width="10" height="900" as="geometry" />
         </mxCell>
         <mxCell id="HTw3sV0ZwZtI-GVUHRbt-4" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;External Entity&lt;/b&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="705" y="220" width="110" height="40" as="geometry" />
+          <mxGeometry x="705" y="100" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HTw3sV0ZwZtI-GVUHRbt-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HTw3sV0ZwZtI-GVUHRbt-5" target="HTw3sV0ZwZtI-GVUHRbt-11">
           <mxGeometry relative="1" as="geometry" />
@@ -83,7 +83,7 @@
           <mxGeometry x="-430" y="680" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HTw3sV0ZwZtI-GVUHRbt-20" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;/photos (GET): Retrieve photos in the user&#39;s feed /photos/{photoId} (GET): Retrieve details of a specific photo /photos (POST): Upload a new photo /photos/{photoId}/like (POST): Like a specific photo /users/{userId}/follow (POST): Follow a user /users/{userId}/unfollow (POST): Unfollow a user&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-200" y="360" width="300" height="120" as="geometry" />
+          <mxGeometry x="-185" y="350" width="300" height="120" as="geometry" />
         </mxCell>
         <mxCell id="HTw3sV0ZwZtI-GVUHRbt-21" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;/videos (GET): Retrieve videos in the user&#39;s feed /videos/{videoId} (GET): Retrieve details of a specific video /videos (POST): Upload a new video /videos/{videoId}/like (POST): Like a specific video /users/{userId}/follow (POST): Follow a user /users/{userId}/unfollow (POST): Unfollow a user&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-210" y="670" width="330" height="140" as="geometry" />
@@ -105,6 +105,70 @@
         </mxCell>
         <mxCell id="HTw3sV0ZwZtI-GVUHRbt-34" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Business Logic Layer&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="170" y="110" width="110" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="HTw3sV0ZwZtI-GVUHRbt-35" value="Ensures that a photo can only be liked once. This layer also manages the logic for displaying photos in the user&#39;s fees." style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="152.5" y="630" width="165" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HTw3sV0ZwZtI-GVUHRbt-36" value="" style="line;strokeWidth=2;direction=south;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="100" width="10" height="900" as="geometry" />
+        </mxCell>
+        <mxCell id="HTw3sV0ZwZtI-GVUHRbt-37" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="290" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="HTw3sV0ZwZtI-GVUHRbt-38" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;PhotoRepository&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="325" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="HTw3sV0ZwZtI-GVUHRbt-39" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="575" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="HTw3sV0ZwZtI-GVUHRbt-41" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;UserRepository&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="620" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HTw3sV0ZwZtI-GVUHRbt-42" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="HTw3sV0ZwZtI-GVUHRbt-25" target="HTw3sV0ZwZtI-GVUHRbt-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="460" as="sourcePoint" />
+            <mxPoint x="260" y="410" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HTw3sV0ZwZtI-GVUHRbt-43" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="HTw3sV0ZwZtI-GVUHRbt-25" target="HTw3sV0ZwZtI-GVUHRbt-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="460" as="sourcePoint" />
+            <mxPoint x="260" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HTw3sV0ZwZtI-GVUHRbt-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HTw3sV0ZwZtI-GVUHRbt-39" target="HTw3sV0ZwZtI-GVUHRbt-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HTw3sV0ZwZtI-GVUHRbt-45" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="HTw3sV0ZwZtI-GVUHRbt-2" target="HTw3sV0ZwZtI-GVUHRbt-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="460" as="sourcePoint" />
+            <mxPoint x="580" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HTw3sV0ZwZtI-GVUHRbt-46" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=52.5;entryPerimeter=0;" edge="1" parent="1" source="HTw3sV0ZwZtI-GVUHRbt-39" target="HTw3sV0ZwZtI-GVUHRbt-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="460" as="sourcePoint" />
+            <mxPoint x="580" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HTw3sV0ZwZtI-GVUHRbt-47" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Data Layer&lt;/b&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="462.5" y="100" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HTw3sV0ZwZtI-GVUHRbt-48" value="This Database is external to my application but queries can be made to access data from it" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="575" width="120" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="HTw3sV0ZwZtI-GVUHRbt-49" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Retrieves/Manipulates Data from&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="495" width="170" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="HTw3sV0ZwZtI-GVUHRbt-50" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Requests Data/Manipulations from&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="240" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HTw3sV0ZwZtI-GVUHRbt-51" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Routes requests to&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="230" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HTw3sV0ZwZtI-GVUHRbt-52" value="The website and mobile apps both consume the API but are external to it" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-442.5" y="815" width="185" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
